@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.name {
+
+    color: #060101;
+    padding-bottom: 4px;
+    padding-left: 30px;
+    font-style: italic;
+    font-weight:bolder;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items:center;
+  justify-content:right;
+  padding-right: 80px;
+  background: #ffffff;
+}
+.container {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 13px;
+  padding: 10px 20px 20px;
+  background: #000000;
+  box-shadow:  5px 10px rgba(0, 0, 0, 0.05);
+}
+.display {
+  height: 90px;
+  width: 100%;
+  outline: none;
+  border:#000000;
+  border-radius:2px;
+  text-align: right;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #000000;
+  pointer-events: none;
+}
+.buttons {
+  display:grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.buttons button {
+  padding: 10px;
+  border-radius: 100%;
+  border:none;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #d8cfcf76;
+}
+.buttons button:active {
+  transform: scale(0.99);
+}
+.operator {
+  color: #e2ff05;
+  font-weight: bold;
+}
+
+.number{
+  color: #f1f0f0;
+  font-weight:200
+}
+.double{
+  color: #ffaa00;
+  font-weight: 200;
+}
+.dot{
+  color: #00ffc3;
+  font-weight:bolder;
+}
+.copyright{
+
+  font-weight: 100;
+  padding-top: 600px;
+  padding-right: 70px;
+  font-size: small;
+  font-style: italic;
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
